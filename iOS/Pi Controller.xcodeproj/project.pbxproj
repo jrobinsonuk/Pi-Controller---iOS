@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A17684B174642DB00E86E88 /* PiSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A176849174642DB00E86E88 /* PiSettingsViewController.m */; };
+		1A17684C174642DB00E86E88 /* PiSettingsViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A17684A174642DB00E86E88 /* PiSettingsViewController_iPhone.xib */; };
+		1A17684E1746434000E86E88 /* PiSettingsViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A17684D1746434000E86E88 /* PiSettingsViewController_iPad.xib */; };
+		1A1768511746B44F00E86E88 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A17684F1746B44F00E86E88 /* settings.png */; };
+		1A1768521746B44F00E86E88 /* settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A1768501746B44F00E86E88 /* settings@2x.png */; };
+		1A847503164C7864008C3D57 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A847502164C7864008C3D57 /* UIKit.framework */; };
+		1A847505164C7864008C3D57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A847504164C7864008C3D57 /* Foundation.framework */; };
+		1A847507164C7864008C3D57 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A847506164C7864008C3D57 /* CoreGraphics.framework */; };
+		1A84750D164C7865008C3D57 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A84750B164C7865008C3D57 /* InfoPlist.strings */; };
+		1A84750F164C7865008C3D57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A84750E164C7865008C3D57 /* main.m */; };
+		1A847513164C7865008C3D57 /* PiAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A847512164C7865008C3D57 /* PiAppDelegate.m */; };
+		1A847515164C7865008C3D57 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A847514164C7865008C3D57 /* Default.png */; };
+		1A847517164C7865008C3D57 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A847516164C7865008C3D57 /* Default@2x.png */; };
+		1A847519164C7865008C3D57 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A847518164C7865008C3D57 /* Default-568h@2x.png */; };
+		1A84753C164C78AC008C3D57 /* PiRadioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A84753A164C78AC008C3D57 /* PiRadioViewController.m */; };
+		1A84753D164C78AC008C3D57 /* PiRadioViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A84753B164C78AC008C3D57 /* PiRadioViewController_iPhone.xib */; };
+		1A847540164C7B9D008C3D57 /* PiURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A84753F164C7B9D008C3D57 /* PiURLConnection.m */; };
+		1A847542164C87FA008C3D57 /* PiRadioViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A847541164C87FA008C3D57 /* PiRadioViewController_iPad.xib */; };
+		1A847544164C8A23008C3D57 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A847543164C8A23008C3D57 /* Icon.png */; };
+		1A847546164C8A27008C3D57 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A847545164C8A27008C3D57 /* Icon@2x.png */; };
+		1A847548164C8A2C008C3D57 /* Icon-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A847547164C8A2C008C3D57 /* Icon-iPad.png */; };
+		1A84754A164C8A2F008C3D57 /* Icon-iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A847549164C8A2F008C3D57 /* Icon-iPad@2x.png */; };
+		1AE45529173F059A0095E16D /* radio.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AE45527173F059A0095E16D /* radio.png */; };
+		1AE4552A173F059A0095E16D /* radio@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AE45528173F059A0095E16D /* radio@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A176848174642DB00E86E88 /* PiSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PiSettingsViewController.h; sourceTree = "<group>"; };
+		1A176849174642DB00E86E88 /* PiSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PiSettingsViewController.m; sourceTree = "<group>"; };
+		1A17684A174642DB00E86E88 /* PiSettingsViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PiSettingsViewController_iPhone.xib; sourceTree = "<group>"; };
+		1A17684D1746434000E86E88 /* PiSettingsViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PiSettingsViewController_iPad.xib; sourceTree = "<group>"; };
+		1A17684F1746B44F00E86E88 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		1A1768501746B44F00E86E88 /* settings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings@2x.png"; sourceTree = "<group>"; };
+		1A8474FE164C7864008C3D57 /* Pi Controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pi Controller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A847502164C7864008C3D57 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1A847504164C7864008C3D57 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1A847506164C7864008C3D57 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1A84750A164C7865008C3D57 /* Pi Controller-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pi Controller-Info.plist"; sourceTree = "<group>"; };
+		1A84750C164C7865008C3D57 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1A84750E164C7865008C3D57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A847510164C7865008C3D57 /* Pi Controller-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pi Controller-Prefix.pch"; sourceTree = "<group>"; };
+		1A847511164C7865008C3D57 /* PiAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PiAppDelegate.h; sourceTree = "<group>"; };
+		1A847512164C7865008C3D57 /* PiAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PiAppDelegate.m; sourceTree = "<group>"; };
+		1A847514164C7865008C3D57 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		1A847516164C7865008C3D57 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		1A847518164C7865008C3D57 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1A847539164C78AC008C3D57 /* PiRadioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PiRadioViewController.h; sourceTree = "<group>"; };
+		1A84753A164C78AC008C3D57 /* PiRadioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PiRadioViewController.m; sourceTree = "<group>"; };
+		1A84753B164C78AC008C3D57 /* PiRadioViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PiRadioViewController_iPhone.xib; sourceTree = "<group>"; };
+		1A84753E164C7B9D008C3D57 /* PiURLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PiURLConnection.h; sourceTree = "<group>"; };
+		1A84753F164C7B9D008C3D57 /* PiURLConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PiURLConnection.m; sourceTree = "<group>"; };
+		1A847541164C87FA008C3D57 /* PiRadioViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PiRadioViewController_iPad.xib; sourceTree = "<group>"; };
+		1A847543164C8A23008C3D57 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		1A847545164C8A27008C3D57 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		1A847547164C8A2C008C3D57 /* Icon-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-iPad.png"; sourceTree = "<group>"; };
+		1A847549164C8A2F008C3D57 /* Icon-iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-iPad@2x.png"; sourceTree = "<group>"; };
+		1AE45527173F059A0095E16D /* radio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio.png; sourceTree = "<group>"; };
+		1AE45528173F059A0095E16D /* radio@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A8474FB164C7864008C3D57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A847503164C7864008C3D57 /* UIKit.framework in Frameworks */,
+				1A847505164C7864008C3D57 /* Foundation.framework in Frameworks */,
+				1A847507164C7864008C3D57 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A8474F3164C7864008C3D57 = {
+			isa = PBXGroup;
+			children = (
+				1A847549164C8A2F008C3D57 /* Icon-iPad@2x.png */,
+				1A847547164C8A2C008C3D57 /* Icon-iPad.png */,
+				1A847545164C8A27008C3D57 /* Icon@2x.png */,
+				1A847543164C8A23008C3D57 /* Icon.png */,
+				1A847508164C7865008C3D57 /* Pi Controller */,
+				1A847501164C7864008C3D57 /* Frameworks */,
+				1A8474FF164C7864008C3D57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A8474FF164C7864008C3D57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A8474FE164C7864008C3D57 /* Pi Controller.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A847501164C7864008C3D57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A847502164C7864008C3D57 /* UIKit.framework */,
+				1A847504164C7864008C3D57 /* Foundation.framework */,
+				1A847506164C7864008C3D57 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A847508164C7865008C3D57 /* Pi Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1A847511164C7865008C3D57 /* PiAppDelegate.h */,
+				1A847512164C7865008C3D57 /* PiAppDelegate.m */,
+				1A84753E164C7B9D008C3D57 /* PiURLConnection.h */,
+				1A84753F164C7B9D008C3D57 /* PiURLConnection.m */,
+				1A847539164C78AC008C3D57 /* PiRadioViewController.h */,
+				1A84753A164C78AC008C3D57 /* PiRadioViewController.m */,
+				1A176848174642DB00E86E88 /* PiSettingsViewController.h */,
+				1A176849174642DB00E86E88 /* PiSettingsViewController.m */,
+				1A17684A174642DB00E86E88 /* PiSettingsViewController_iPhone.xib */,
+				1A17684D1746434000E86E88 /* PiSettingsViewController_iPad.xib */,
+				1A84753B164C78AC008C3D57 /* PiRadioViewController_iPhone.xib */,
+				1A847541164C87FA008C3D57 /* PiRadioViewController_iPad.xib */,
+				1A17684F1746B44F00E86E88 /* settings.png */,
+				1A1768501746B44F00E86E88 /* settings@2x.png */,
+				1AE45527173F059A0095E16D /* radio.png */,
+				1AE45528173F059A0095E16D /* radio@2x.png */,
+				1A847509164C7865008C3D57 /* Supporting Files */,
+			);
+			path = "Pi Controller";
+			sourceTree = "<group>";
+		};
+		1A847509164C7865008C3D57 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A84750A164C7865008C3D57 /* Pi Controller-Info.plist */,
+				1A84750B164C7865008C3D57 /* InfoPlist.strings */,
+				1A84750E164C7865008C3D57 /* main.m */,
+				1A847510164C7865008C3D57 /* Pi Controller-Prefix.pch */,
+				1A847514164C7865008C3D57 /* Default.png */,
+				1A847516164C7865008C3D57 /* Default@2x.png */,
+				1A847518164C7865008C3D57 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A8474FD164C7864008C3D57 /* Pi Controller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A847536164C7865008C3D57 /* Build configuration list for PBXNativeTarget "Pi Controller" */;
+			buildPhases = (
+				1A8474FA164C7864008C3D57 /* Sources */,
+				1A8474FB164C7864008C3D57 /* Frameworks */,
+				1A8474FC164C7864008C3D57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pi Controller";
+			productName = "Pi Controller";
+			productReference = 1A8474FE164C7864008C3D57 /* Pi Controller.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A8474F5164C7864008C3D57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Pi;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "GTX World";
+			};
+			buildConfigurationList = 1A8474F8164C7864008C3D57 /* Build configuration list for PBXProject "Pi Controller" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1A8474F3164C7864008C3D57;
+			productRefGroup = 1A8474FF164C7864008C3D57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A8474FD164C7864008C3D57 /* Pi Controller */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A8474FC164C7864008C3D57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A84750D164C7865008C3D57 /* InfoPlist.strings in Resources */,
+				1A847515164C7865008C3D57 /* Default.png in Resources */,
+				1A847517164C7865008C3D57 /* Default@2x.png in Resources */,
+				1A847519164C7865008C3D57 /* Default-568h@2x.png in Resources */,
+				1A84753D164C78AC008C3D57 /* PiRadioViewController_iPhone.xib in Resources */,
+				1A847542164C87FA008C3D57 /* PiRadioViewController_iPad.xib in Resources */,
+				1A847544164C8A23008C3D57 /* Icon.png in Resources */,
+				1A847546164C8A27008C3D57 /* Icon@2x.png in Resources */,
+				1A847548164C8A2C008C3D57 /* Icon-iPad.png in Resources */,
+				1A84754A164C8A2F008C3D57 /* Icon-iPad@2x.png in Resources */,
+				1AE45529173F059A0095E16D /* radio.png in Resources */,
+				1AE4552A173F059A0095E16D /* radio@2x.png in Resources */,
+				1A17684C174642DB00E86E88 /* PiSettingsViewController_iPhone.xib in Resources */,
+				1A17684E1746434000E86E88 /* PiSettingsViewController_iPad.xib in Resources */,
+				1A1768511746B44F00E86E88 /* settings.png in Resources */,
+				1A1768521746B44F00E86E88 /* settings@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A8474FA164C7864008C3D57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A84750F164C7865008C3D57 /* main.m in Sources */,
+				1A847513164C7865008C3D57 /* PiAppDelegate.m in Sources */,
+				1A84753C164C78AC008C3D57 /* PiRadioViewController.m in Sources */,
+				1A847540164C7B9D008C3D57 /* PiURLConnection.m in Sources */,
+				1A17684B174642DB00E86E88 /* PiSettingsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1A84750B164C7865008C3D57 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A84750C164C7865008C3D57 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A847534164C7865008C3D57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A847535164C7865008C3D57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A847537164C7865008C3D57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pi Controller/Pi Controller-Prefix.pch";
+				INFOPLIST_FILE = "Pi Controller/Pi Controller-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1A847538164C7865008C3D57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pi Controller/Pi Controller-Prefix.pch";
+				INFOPLIST_FILE = "Pi Controller/Pi Controller-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A8474F8164C7864008C3D57 /* Build configuration list for PBXProject "Pi Controller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A847534164C7865008C3D57 /* Debug */,
+				1A847535164C7865008C3D57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A847536164C7865008C3D57 /* Build configuration list for PBXNativeTarget "Pi Controller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A847537164C7865008C3D57 /* Debug */,
+				1A847538164C7865008C3D57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A8474F5164C7864008C3D57 /* Project object */;
+}
